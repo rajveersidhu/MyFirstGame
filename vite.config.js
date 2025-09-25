@@ -1,5 +1,5 @@
 // vite.config.js
 export default {
-  // Use relative asset paths so the build works from /snake/ (a subfolder)
-  base: './',
+  // IMPORTANT: repo-name path for GitHub Pages project sites
+  base: '/MyFirstGame/',
 };

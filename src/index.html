@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Snake DX</title>
+    <style>
+      html, body { height: 100%; margin: 0; background:#0b0f14; color:#e6edf3; font-family: system-ui, sans-serif; }
+      .wrap { display:grid; place-items:center; height:100%; gap:16px; }
+      canvas { background:#0e1520; border:1px solid #1f2a37; touch-action: none; }
+      .hud { display:flex; gap:12px; align-items:center; font-size:14px; opacity:.9; flex-wrap:wrap; justify-content:center; }
+      button { background:#111827; color:#e6edf3; border:1px solid #1f2937; padding:8px 12px; border-radius:10px }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <canvas id="game" width="480" height="480"></canvas>
+      <div class="hud">
+        <div>Score: <span id="score">0</span></div>
+        <div>Best: <span id="best">0</span></div>
+        <button id="pauseBtn">Pause</button>
+        <button id="resetBtn">Restart</button>
+      </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

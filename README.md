@@ -1,3 +1,2 @@
-# MyFirstGame
-
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/rajveersidhu/MyFirstGame)
+SNAKE Game
+This is my first attempt at making a very simple game.
